@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/dwmpc" auth="Container"
+              type="javax.sql.DataSource" maxActive="20"  maxIdle="5" maxWait="10000"
+              username="shatty" password="Shatty@136"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/dwmpc?user&amp;serverTimezone=UTC"/>
+<!--              url="jdbc:mysql://dwmpc-1.ciesishcjgv3.us-east-2.rds.amazonaws.com:3306/dwmpc?user&amp;serverTimezone=UTC"/>-->
+</Context>
